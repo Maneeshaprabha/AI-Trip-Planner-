@@ -1,0 +1,46 @@
+/* Custom styles for slider */
+.slider-container {
+    margin-bottom: 1rem;
+  }
+  
+  .slider-image {
+    border-radius: 0.75rem; /* Rounded corners for images */
+  }
+  
+  .slider-nav-button {
+    z-index: 1; /* Ensure navigation buttons are on top of images */
+    width: 2rem;
+    height: 2rem;
+    background-color: rgba(72,69,210,1); /* Match button color with theme */
+    border-radius: 50%;
+    opacity: 0.8;
+  }
+  
+  .slider-nav-button:hover {
+    opacity: 1;
+  }
+  
+  .slider-dots {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 0.5rem;
+    padding: 0.5rem;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 1rem;
+  }
+  
+  .slider-dot {
+    width: 0.75rem;
+    height: 0.75rem;
+    border-radius: 50%;
+    background-color: gray;
+    cursor: pointer;
+  }
+  
+  .slider-dot.active {
+    background-color: rgba(72,69,210,1);
+  }
+  

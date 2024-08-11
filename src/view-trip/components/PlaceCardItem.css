@@ -1,0 +1,58 @@
+/* Container for the entire component */
+.place-to-visit-container {
+    margin-top: 100px;
+    padding: 0 1.5rem; /* Add padding for better spacing on smaller screens */
+  }
+  
+  /* Title of the section */
+  .section-title {
+    font-weight: bold;
+    font-size: 1.5rem; /* 24px, increase size */
+     /* Theme color */
+    margin-bottom: 1.5rem; /* Spacing below the title */
+    text-align: center; /* Center align title */
+  }
+  
+  /* Heading for each day's itinerary */
+  .day-heading {
+    font-weight: 500;
+    font-size: 1.25rem; /* 20px */
+   /* Theme color */
+    margin-top: 1.25rem; /* Spacing above each day's heading */
+  }
+  
+  /* Subheading for the theme of the day */
+  .theme-heading {
+    font-weight: 500;
+    font-size: 1.125rem; /* 18px */
+    color: rgba(72, 69, 210, 1); /* Theme color */
+    margin-bottom: 1rem; /* Spacing below the theme heading */
+  }
+  
+  /* Container for each place card */
+  .place-card-container {
+    margin-top: 1rem; /* Spacing above each place card */
+  }
+  
+  /* Grid layout for the place cards */
+  .place-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem; /* Spacing between grid items */
+  }
+  
+  /* Time text inside each place card */
+  .place-time {
+    font-weight: 500;
+    font-size: 0.875rem; /* 14px */
+    color: rgba(72, 69, 210, 1); /* Theme color */
+    margin-bottom: 0.5rem; /* Spacing below the time text */
+  }
+  
+  /* Responsive styles for smaller screens */
+  @media (max-width: 640px) {
+    .place-grid {
+      grid-template-columns: 1fr; /* Single column on small screens */
+    }
+  }
+  

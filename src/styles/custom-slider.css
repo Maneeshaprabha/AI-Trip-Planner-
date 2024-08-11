@@ -1,0 +1,23 @@
+/* Custom styles for slider */
+.slick-slide img {
+    border-radius: 0.75rem; /* Rounded corners for images */
+  }
+  
+  .slick-prev, .slick-next {
+    z-index: 1; /* Ensure navigation buttons are on top of images */
+    width: 2rem;
+    height: 2rem;
+    background-color: rgba(72,69,210,1); /* Match button color with theme */
+    border-radius: 50%;
+    opacity: 0.8;
+  }
+  
+  .slick-prev:hover, .slick-next:hover {
+    opacity: 1;
+  }
+  
+  /* Optional: add a bit of spacing around the slider */
+  .slider-container {
+    margin-bottom: 1rem;
+  }
+  
